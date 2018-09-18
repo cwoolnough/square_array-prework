@@ -1,5 +1,4 @@
 def square_array(array)
-  array.map do |number|
-     number.Math.sqrt()
-  end
+  array.each do | number |
+    return number
 end
